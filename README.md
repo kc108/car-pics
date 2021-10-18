@@ -1,3 +1,13 @@
+## Challenges
+
+# 1. Need to get a search term from user
+
+# 2. Need to use that search term to make a request to an outside API and fetch data
+
+# 3. Need to take the fetched images and show them on the screen to a list
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
