@@ -1,4 +1,30 @@
-## Challenges
+## Controlled vs Uncontrolled forms
+
+#### Avoid TypeErrors by using Arrow functions
+
+##### the 'this' keyword in an arrow fnct is automatically bound to the 'this' keyword
+
+###### only during the time when the user calls the callBack do we know what the 'source of truth' is.
+
+###### Uncontrolled form: info was stored in the HTML EX.. <input value="Hi there!" /> VS.
+
+###### Controlled form: state -> { term: 'hi there' }
+
+### \*\*\* UNCONTROLLED FORM stored in the DOM.
+
+#### Flow
+
+##### 1. User types in input
+
+##### 2. Callback gets invoked
+
+##### 3. We call setState with the new value
+
+##### 4. Component re-renders
+
+##### 5. Input is told what its value is (coming from state)
+
+### refactor uncontrolled to controlled form
 
 # 1. Need to get a search term from user
 
